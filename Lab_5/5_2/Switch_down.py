@@ -5,7 +5,7 @@ import sys
 # SETUP
 print("start ")
 pinLed = 2
-pinSwitch = 1
+pinSwitch = 9
 wiringpi.wiringPiSetup ()
 wiringpi.pinMode (pinLed, 1)
 wiringpi.pinMode (pinSwitch, 0)
